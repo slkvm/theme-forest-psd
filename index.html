@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>This is Page Title</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/uikit.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/slicknav.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  </head>
+  <body  id="header">
+    <div class="header_area">
+      <div class="container" id="home">
+        <div class="row">
+          <div class="col-md-4 col-sm-3">
+            <div class="header_left">
+              <p>We are open every day</p>
+              <h3><i class="fa fa-clock-o"></i> 9AM - 11PM</h3>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="logo">
+              <h2>MAESTRO</h2>
+              <p>Restaurant Premium Template</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-3">
+            <div class="social_profiles">
+              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+              <a href=""><i class="fa fa-rss"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mainmenu_area" id="stick_menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="mainmenu">
+              <ul id="nav">
+                <li class="current"><a href="#home">Home</a></li>
+                <li><a href="#page_heading">Rooms</a></li>
+                <li class="uk-animation-hover"><a href="#latest_news">latest_news</a>
+                  <ul class="sub-menu uk-animation-fade">
+                    <li><a href="">Dropdown Items</a>
+                      <ul class="side_sub_menu uk-animation-fade">
+                        <li><a href="">Sub Dropdown Items</a></li>
+                        <li><a href="">Sub Dropdown Items</a></li>
+                        <li><a href="">Sub Dropdown Items</a></li>
+                        <li><a href="">Sub Dropdown Items</a></li>
+                        <li><a href="">Sub Dropdown Items</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="">Dropdown Items</a>
+                        <ul class="side_sub_menu uk-animation-fade">
+                            <li><a href="">Sub Dropdown Items</a></li>
+                            <li><a href="">Sub Dropdown Items</a></li>
+                            <li><a href="">Sub Dropdown Items</a></li>
+                            <li><a href="">Sub Dropdown Items</a></li>
+                            <li><a href="">Sub Dropdown Items</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Dropdown Items</a></li>
+                    <li><a href="">Dropdown Items</a></li>
+                    <li><a href="">Dropdown Items</a></li>
+                    <li><a href="">Dropdown Items</a></li>
+                  </ul>
+                </li>
+                <li><a href="#events">Events</a></li>
+                <li class="disabled"><a href="">shop</a></li>
+                <li><a href="">Relax</a></li>
+                <li><a href="#contact_us">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="reservations">
+              <i class="fa fa-calendar"></i>
+              <h3>Reservations</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider_area">
+      <div class="slides_list">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://placekitten.com/1600/634" alt="...">
+              <div class="slider-caption">
+                <h2>Food With Attitude</h2>
+                <h3>Good Food complements great beer.</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placekitten.com/1600/612" alt="...">
+              <div class="slider-caption">
+                <h2>Food With  Slider 2</h2>
+                <h3>Good Food great beer Slider 2.</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placekitten.com/1600/655" alt="...">
+              <div class="slider-caption">
+                <h2>Food With  Slider 3</h2>
+                <h3>Good Food great beer Slider 3.</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://placekitten.com/1600/645" alt="...">
+              <div class="slider-caption">
+                <h2>Food With  Slider 4</h2>
+                <h3>Good Food great beer Slider 4.</h3>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left slider_left_btn" href="#carousel-example-generic" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right slider_right_btn" href="#carousel-example-generic" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="maincontent_area" id="page_heading">
+      <div class="container">
+        <div class="row">
+          <div class="page_title_area">
+             <div class="dashes-background"></div>
+              <div class="col-sm-9 col-xs-12">
+                <div class="page_title">
+                  <h2>Welcome to Maestro Restaurant <span>View things coming up on here 5 star restaurant</span></h2>
+                </div>
+              </div>
+              <div class="col-sm-3 col-xs-12">
+                <div class="page_title_star">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="promo_area">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single_promo">
+                <img src="img/promo.png" alt="">
+                <div class="single_promo_title">
+                  <i class="fa fa-coffee"></i>
+                  <h2>VIEW TABLES</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single_promo">
+                <img src="img/promo.png" alt="">
+                <div class="single_promo_title"><i class="fa fa-glass"></i><h2>SPECIAL EVENT</h2></div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single_promo">
+                <img src="img/promo.png" alt="">
+                <div class="single_promo_title"><i class="fa fa-cutlery"></i><h2>OUR MENU</h2></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="latest_news" id="latest_news">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Latest News</h2><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="single_news_area">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="single-news">
+                  <img src="img/news.png" alt="">
+                  <p>June 20, 2014 </p>
+                  <h3>Morbi congue leo et justo</h3>
+                  <p>In ac elementum mi. Duis vestibulum mollis massa vestibulum. Pellentesque porta mentum tristique.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="single-news">
+                  <img src="img/news.png" alt="">
+                  <p>June 20, 2014 </p>
+                  <h3>Morbi congue leo et justo</h3>
+                  <p>In ac elementum mi. Duis vestibulum mollis massa vestibulum. Pellentesque porta mentum tristique.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="single-news">
+                  <img src="img/news.png" alt="">
+                  <p>June 20, 2014 </p>
+                  <h3>Morbi congue leo et justo</h3>
+                  <p>In ac elementum mi. Duis vestibulum mollis massa vestibulum. Pellentesque porta mentum tristique.</p>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="single-news">
+                  <img src="img/news.png" alt="">
+                  <p>June 20, 2014 </p>
+                  <h3>Morbi congue leo et justo</h3>
+                  <p>In ac elementum mi. Duis vestibulum mollis massa vestibulum. Pellentesque porta mentum tristique.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row events_area" id="events">
+          <div class="col-md-4 col-sm-12">
+            <h2>Lunch Special</h2><span class="blank_span"></span>
+            <div class="single_speacial fix">
+              <img src="img/events.png" alt="">
+              <h3>Sed aliquet est</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient nascetur ridiculus mus.</p>
+            </div>
+            <div class="single_speacial fix">
+              <img src="img/events.png" alt="">
+              <h3>Sed aliquet est</h3>
+              <p>Cum sociis natoque penatibus et magnis dis parturient nascetur ridiculus mus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h2>Upcoming Events</h2><span class="blank_span"></span>
+            <div class="single_events fix">
+              <div class="event_date fix">
+                <h6>Sep</h6><h6>2014</h6>
+              </div>
+              <h3>Breakfest Club</h3>
+              <p>Donec massa ipsum, faucibus eu sem sed, vulputate sagittis mauris vivamus sodales.</p>
+            </div>
+            <div class="single_events fix">
+              <div class="event_date fix">
+                <h6>Sep</h6><h6>2014</h6>
+              </div>
+              <h3>Breakfest Club</h3>
+              <p>Donec massa ipsum, faucibus eu sem sed, vulputate sagittis mauris vivamus sodales.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h2>Opening Hours</h2><span class="blank_span"></span>
+            <div class="opening_hour_list">
+              <ul class="event_list">
+                <li><i class="fa fa-clock-o"></i><a href="">Monday <span>8:15 AM - 9:00 PM</span></a></li>
+                <li><i class="fa fa-clock-o"></i><a href="">Monday <span>8:15 AM - 9:00 PM</span></a></li>
+                <li><i class="fa fa-clock-o"></i><a href="">Monday <span>8:15 AM - 9:00 PM</span></a></li>
+                <li><i class="fa fa-clock-o"></i><a href="">Monday <span>8:15 AM - 9:00 PM</span></a></li>
+                <li><i class="fa fa-clock-o"></i><a href="">Monday <span>8:15 AM - 9:00 PM</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_top_area fix" id="contact_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-6">
+            <h2>Contact Us</h2>
+            <p>Address: Palazzo Di Sole <br>
+              416 Water St. New York</p>
+            <p>Phone: 777 906 534 07 <br><br>
+              Fax: 777 906 534 07 <br><br>
+              Email: <a href="mailto:your@email.com">your@email.com</a></p>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <h2>Recent Events</h2>
+            <ul>
+              <li><a href=""><span>September 21, 2014</span><br> Breakfest Club</a></li>
+              <li><a href=""><span>August 16, 2014</span><br>88th Hospitality Training Conference</a></li>
+              <li><a href=""><span>June 28, 2014</span><br>Daily Drink & Appetizer Specials</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-sm-12">
+            <h2>Our Gallery</h2>
+            <div class="gallery_images">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+              <img src="img/gallery.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <h2>Get in Touch</h2>
+            <p id="another_color_p">Phasellus eget tincidunt mauris. Aenean ut purus at lorem aliquam porttitor. Fusce rutrum, massa eu lobortis ultrices.</p>
+            <form action="">
+              <input type="email" placeholder="Your Email Address">
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-12">
+            <p>Copyright 2014</p>
+          </div>
+          <div class="col-sm-9 col-xs-12">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Rooms</a></li>
+              <li><a href="">menu</a></li>
+              <li><a href="">Relax</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.scrollUp.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
